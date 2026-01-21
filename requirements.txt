@@ -1,0 +1,15 @@
+# Core dependencies
+torch>=1.12
+numpy>=1.21
+
+# Visualization
+matplotlib>=3.5
+
+# Optional but commonly needed (safe to include)
+torchvision>=0.13
+
+# Hugging Face vision models (optional, for HF support)
+transformers>=4.30
+
+# Image handling (examples / demos)
+Pillow>=9.0
