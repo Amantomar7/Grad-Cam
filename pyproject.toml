@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "grad-cam"
+version = "0.1.0"
+description = "Giving the grad-cam map of the output of the convolutional networks made using pytorch;"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    torch>=1.12,
+    numpy>=1.21,
+    matplotlib>=3.5,
+    torchvision>=0.13,
+    Pillow>=9.0
+]
+
+[project.scripts]
+my-command = "my_package.main:gradcam.py"
