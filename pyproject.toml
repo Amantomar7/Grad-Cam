@@ -9,12 +9,12 @@ description = "Giving the grad-cam map of the output of the convolutional networ
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    torch>=1.12,
-    numpy>=1.21,
-    matplotlib>=3.5,
-    torchvision>=0.13,
-    Pillow>=9.0
+    "torch>=1.12",
+    "numpy>=1.21",
+    "matplotlib>=3.5",
+    "torchvision>=0.13",
+    "Pillow>=9.0"
 ]
 
 [project.scripts]
-my-command = "my_package.main:gradcam.py"
+my-command = "grad_cam.gradcam:grad_cam_from_pytorch_model"
